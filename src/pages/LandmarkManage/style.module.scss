@@ -1,0 +1,27 @@
+.main {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    height: calc(100vh - 46px);
+}
+
+.map_switch {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.atv {
+    display: block;
+    border-bottom: 2px solid #0078BB;
+    padding: 5px;
+    color: #0078BB;
+}

@@ -1,0 +1,41 @@
+.map_switch {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.atv {
+    display: block;
+    color: #0078BB;
+    border-bottom: 2px solid #0078BB;
+}
+
+.prompt{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    padding: 3px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    white-space: nowrap;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.prompt_circle{
+    background-color:#212A4E;
+    color:#fff;
+}
+.prompt_polygon {
+    background-color: #E22D2D;
+    color: #fff;
+}

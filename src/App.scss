@@ -1,0 +1,159 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.one_line{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+.multiline {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+ul{
+  list-style: none;
+}
+.cursor_pointer{
+  cursor: pointer;
+}
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
+.w-100{
+  width: 100%;
+}
+.w_50px{
+  display: block;
+  width: 50px;
+}
+
+
+// text
+.fz_10{
+  font-size: 0.72rem;
+}
+.fz_12{
+  font-size: 0.8rem;
+}
+.fz_14{
+  font-size: 0.9rem;
+}
+.fz_18{
+  font-size: 1.1rem;
+}
+.txt_blue{
+  color: #0078BB;
+}
+.txt_gray{
+  color: #979797;
+}
+
+// padding
+.p-5{
+  padding: 5px;
+}
+.p-15{
+  padding: 15px;
+}
+.pl-15{
+  padding-left: 15px;
+}
+.px-5{
+  padding: 0 5px;
+}
+.py-5 {
+  padding: 5px 0;
+}
+.px-10{
+  padding: 0 10px;
+}
+.py-10{
+  padding: 10px 0;
+}
+
+// margin
+.mb-0{
+  margin-bottom: 0;
+}
+.ml-5{
+  margin-left: 5px;
+}
+.mb-5{
+  margin-bottom: 5px;
+}
+.mb-15{
+  margin-bottom: 15px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.mr-5{
+  margin-right: 5px;
+}
+.mr-10{
+  margin-right: 10px;
+}
+
+// hover
+.list_hover{
+  background: #fff;
+  border-radius: 5px;
+  transition: background .3s linear;
+  &:hover{
+    background: #F0F0F0;
+  }
+}
+
+.br{border:1px solid red}
+// #root {
+//   max-width: 1280px;
+//   margin: 0 auto;
+//   padding: 2rem;
+//   text-align: center;
+// }
+
+// .logo {
+//   height: 6em;
+//   padding: 1.5em;
+//   will-change: filter;
+//   transition: filter 300ms;
+//   &:hover {
+//   filter: drop-shadow(0 0 2em #646cffaa);
+// }
+// }
+
+// .logo.react:hover {
+//   filter: drop-shadow(0 0 2em #61dafbaa);
+// }
+
+// @keyframes logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+
+// @media (prefers-reduced-motion: no-preference) {
+//   a:nth-of-type(2) .logo {
+//     animation: logo-spin infinite 20s linear;
+//   }
+// }
+
+// .card {
+//   padding: 2em;
+// }
+
+// .read-the-docs {
+//   color: #888;
+// }
